@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(46, 102, 121);
+  }
+  
+  h1 {
+    color: White; text-align: center;
+  }
+  
+  h2 {
+    color: White;
+  }
+  
+  h3{
+    color: White;
+  }
+  
+  img[src="http://www.freeimageslive.com/galleries/sports/sportsgames/pics/airmaxshoe.jpg"] {
+    width:100px;
+    height:50px;
+  }
+  
+  img[src="http://www.freeimageslive.com/galleries/food/fruitveg/pics/slived_kiwifruit.jpg"] {
+    width:100px;
+    height:100px;
+  }
