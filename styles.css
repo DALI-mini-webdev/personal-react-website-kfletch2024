@@ -3,7 +3,7 @@ body {
   }
   
   h1 {
-    color: White; text-align: center;
+    color: White; text-align: right;
   }
   
   h2 {
@@ -12,6 +12,10 @@ body {
   
   h3{
     color: White;
+  }
+
+  p{
+      color: White;
   }
   
   img[src="http://www.freeimageslive.com/galleries/sports/sportsgames/pics/airmaxshoe.jpg"] {
@@ -22,4 +26,9 @@ body {
   img[src="http://www.freeimageslive.com/galleries/food/fruitveg/pics/slived_kiwifruit.jpg"] {
     width:100px;
     height:100px;
+  }
+
+  img[src="http://clipart-library.com/data_images/206397.gif"] {
+      width:200px;
+      height:200px;
   }

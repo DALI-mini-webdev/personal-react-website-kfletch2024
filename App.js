@@ -1,18 +1,16 @@
-function ActionLink() {
-    function handleClick(e) {
-      e.preventDefault();
-      console.log('The link was clicked.');
+import React, {Component} from 'react';
+
+class Movie extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
     }
-  
-    return (
-      <a href="#" onClick={handleClick}>
-        Click me
-      </a>
-    );
-  }
 
-ReactDOM.render(
-    document.getElementById('root')
-  );
-  // React Website
+    render() {
+        return(
+            <p>I am the Movie Component</p>
+        )
+    }
+}
 
+export default Movie;
