@@ -7,6 +7,9 @@ class MovieBoard extends Component {
         this.state = {
             movies: Map() ,
             movieID: 0,
+            newMovieName: '',
+            newMovieGenre: '',
+            newMovieImage: '',
 
         }
     }
@@ -14,6 +17,11 @@ class MovieBoard extends Component {
         return (
             <div>
                 <p> This is the movie board! </p>
+
+                <p> Add a movie! </p>
+                <p> Enter Title: </p>
+                <imput type="text" value={this.state.newMovieName} 
+
             </div>
         )
     }
