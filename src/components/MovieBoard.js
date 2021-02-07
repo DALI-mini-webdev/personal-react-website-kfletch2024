@@ -44,15 +44,22 @@ class MovieBoard extends Component {
 
     }
 
+    delete = (id) => {
+        this.setState({movies: this.state.movies.delete(id)})
+    }
+
     render () {
         const allMovies = this.state.movies.entrySeq().map(
             ([id, dog]) => {
                 return (
                     <MoviePosting 
+                    delete={this.delete}
                     name={movie.name}
                     genre={movie.genre}
                     movieURL={movie.image}
-                    key={id}
+                    key={id} 
+                    id={id}/>
+
                     
                     />
                 );
