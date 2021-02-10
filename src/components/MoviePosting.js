@@ -1,4 +1,6 @@
-import React from 'react';
+//this stuff isn't working so I'm commenting it out for now so you can see my working react app
+
+/* import React from 'react';
 
 const MoviePosting = (props) => {
 
@@ -12,6 +14,7 @@ const MoviePosting = (props) => {
                     <button> submit </button>
                 </div>
             )
+            
         }
     
         else {
@@ -55,4 +58,4 @@ save = (id, field) => {
 this.setState({movies: this.state.movies.update(id, (n) => { return Object.assign({}, n, field);})})
 }
 
-export default MoviePosting; 
+export default MoviePosting; */

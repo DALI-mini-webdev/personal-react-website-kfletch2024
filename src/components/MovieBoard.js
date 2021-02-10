@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+//this stuff isn't working so I'm commenting it out for now so you can see my working react app
+
+/* import React, { Component } from 'react';
 import { Map } from 'immutable';
 import MoviePosting from './MoviePosting';
 
@@ -12,7 +14,7 @@ class MovieBoard extends Component {
             newMovieTitle: '',
             newMovieGenre: '',
             newMovieImage: '',
-        }
+        };
     }
 
 
@@ -61,7 +63,7 @@ class MovieBoard extends Component {
                     id={id}/>
 
                     
-                    />
+                
                 );
             }
         );
@@ -89,4 +91,4 @@ class MovieBoard extends Component {
     }
 }
 
-export default MovieBoard;
+export default MovieBoard; */
