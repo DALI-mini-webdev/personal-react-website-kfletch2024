@@ -39,7 +39,7 @@ class MovieBoard extends Component {
             image: this.state.newMovieImage,
         }
         this.setState ( {
-            movies: this.state.movies.set(this.state.movieID, dogData),
+            movies: this.state.movies.set(this.state.movieID, movieData),
             movieID: this.state.movieID + 1
         });
 
@@ -51,7 +51,7 @@ class MovieBoard extends Component {
 
     render () {
         const allMovies = this.state.movies.entrySeq().map(
-            ([id, dog]) => {
+            ([id, movie]) => {
                 return (
                     <MoviePosting 
                     delete={this.delete}
