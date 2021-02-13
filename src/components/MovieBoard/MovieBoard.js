@@ -1,12 +1,11 @@
-//this stuff isn't working so I'm commenting it out for now so you can see my working react app
 
-/* import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { Map } from 'immutable';
 import MoviePosting from './MoviePosting';
 
 
 class MovieBoard extends Component {
-    construcor(props) {
+    constructor(props) {
         super(props);
         this.state = {
             movies: Map(),
@@ -66,7 +65,7 @@ class MovieBoard extends Component {
                 
                 );
             }
-        );
+        )
 
         return (
             <div>
@@ -89,6 +88,6 @@ class MovieBoard extends Component {
             </div>
         )
     }
-}
+};
 
-export default MovieBoard; */
+export default MovieBoard; 
