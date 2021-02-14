@@ -15,7 +15,7 @@ class MovieData extends Component {
        // so we use this then/catch format
        // this says: hit this endpoint. Then when you're done do X. 
        // If there is an error at any point, do Y
-        axios.get("https://cat-fact.herokuapp.com/facts")
+        axios.get("https://poetrydb.org/random")
         .then((response) => {
           console.log(response);
           this.setState({data: response.data[0]})
@@ -45,7 +45,7 @@ class MovieData extends Component {
       return (
         <div>
             <div>hi! Let's play around with APIs</div>
-            <button onClick = {this.fetchData}>click for a fun fact about cats!</button>
+            <button onClick = {this.fetchData}>click for a poem</button>
             {this.renderData()}
         </div>
       ); 
