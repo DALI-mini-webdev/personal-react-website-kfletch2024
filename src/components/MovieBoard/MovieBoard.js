@@ -84,6 +84,8 @@ class MovieBoard extends Component {
                 <input type="text" value={this.state.newMovieImage} onChange={this.newMovieImageFunction} />
 
                 <button onClick={this.saveMovieInfo}>Save!</button>
+                
+                <button onClick={this.delete}> Delete! </button>
 
             </div>
         )
